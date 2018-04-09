@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+form #name{
+	background-color: green;
+}
+p {font-family: "Times New Roman", Times, serif;}
+span {
+	height: 30px;
+	width: 30px;
+	padding: 30px;
+	margin: 55px;
+}
+
+a {
+display: inline;
+}
+
+
+.clearfix {
+	overflow: auto;
+}
+
+section {
+	float: right;
+	
+}
+
+.cb-slideshow  {
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size: 160px;
+    padding: 0 30px;
+    line-height: 120px;
+    color: rgba(169,3,41, 0.8);
+  }
+
+  .hovertest:hover {
+	border-bottom: 1px solid black;
+  }
