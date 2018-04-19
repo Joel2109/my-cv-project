@@ -88,7 +88,7 @@ div .ghost > p {
 }
 
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../images/grouppic.jpg); 
+    background-image: url(../images/grouppic.jpg) 
 }
 .cb-slideshow li:nth-child(2) span { 
     background-image: url(../images/qb-safari.jpg);
