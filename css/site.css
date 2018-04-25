@@ -24,7 +24,6 @@ body {
   padding: 60px;
   height: 225px;    
   border-top: solid;
-  border-color: white;
   width: 100%;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -35,15 +34,18 @@ body {
 
 a.blade:nth-child(1){
     background-image: url(../images/naruto-shippuden.jpg);
+    border-color: whitesmoke;
 }
 
 a.blade:nth-child(2){
     background-image: url(../images/human.jpg);
+    border-color: mediumpurple;
 }
 
 
 a.blade:nth-child(3){
     background-image: url(../images/tech.jpeg);
+    border-color: lightblue;
 }
 
 section .canvas {
