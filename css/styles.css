@@ -1,9 +1,11 @@
 li {
     list-style-type: none;
 }
+/*
 section .canvas {
   margin: 0;
 }
+*/
 nav {
   z-index: 1;
 }
@@ -28,12 +30,11 @@ section > a {
 .jumbo {
   top: 50%;
   left: 50%;
-  padding: 2.5em 16px;
   transform: translate(-50%,-50%);
   position: absolute;
-  z-index: 1;
   color: white;
-  font-size: 64px!important;
+  font-size: 64px;
+  margin: 0px;
 }
 
 
@@ -44,7 +45,7 @@ section > a {
     height: 100%;
     top: 0px;
     left: 0px;
-    z-index: 0; 
+    z-index: -1; 
 }
 .cb-slideshow:after { 
     content: '';
@@ -61,11 +62,11 @@ section > a {
     background-position: 50% 50%;
     background-repeat: none;
     opacity: 0;
-    z-index: 0;
+    z-index: -1;
     animation: imageAnimation 30s linear infinite 0s; 
 }
 .cb-slideshow li div { 
-    z-index: 1;
+    z-index: -1;
     position: absolute;
     bottom: 30px;
     left: 0px;

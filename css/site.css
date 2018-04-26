@@ -21,7 +21,7 @@ body {
 
 .blade {
   margin: 0px;
-  padding: 60px;
+  padding: 80px;
   height: 225px;    
   border-top: solid;
   width: 100%;
@@ -29,7 +29,6 @@ body {
   background-repeat: no-repeat;
   color: white;
   display: block;
-  font-size: 64px!important;
 }
 
 a.blade:nth-child(1){
