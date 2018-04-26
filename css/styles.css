@@ -35,6 +35,7 @@ section > a {
   color: white;
   font-size: 64px;
   margin: 0px;
+  z-index: 0;
 }
 
 
